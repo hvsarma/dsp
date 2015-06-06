@@ -18,6 +18,11 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
+    if count >= 10:
+        print 'Number of donuts: %d' % (count)
+    else:
+        print 'Number of donuts: many'
+
     raise NotImplementedError
 
 
