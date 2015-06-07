@@ -28,7 +28,15 @@ Tuples are immutable, have a structure and have no method. Hence, used as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+Set is a dictionary with no values. Set is an unordered unduplicate collection of list elements.
+>>> gender = ['male', 'female', 'male', 'male']
+>>> set(gender)
+set(['male', 'female'])
+
+Set needs to be en'listed' before accessing its content.
+e.g. list(set(gender))
+
+
 
 ---
 
