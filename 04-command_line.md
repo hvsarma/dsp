@@ -12,7 +12,11 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+> My pocket-list of "mostly-used" CL commands: ```cd, pwd, echo, cat, vi, >, |, less, more, python```
+
+> My pocket-list of "occasionally-used" CL commands: ```export, env, ipconfig, ping, find, grep, split, cp, sort```
+
+> My pocket-list of "less-used" CL commands: ```chmod, alias, xargs, git clone```
 
 ---
 
@@ -21,7 +25,15 @@ REPLACE THIS TEXT WITH YOUR RESPONSE
 
 What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations of those flags are meaningful?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+> `ls` lists all files and subdirectories in a directory.
+
+> `ls -a` lists all hidden files and subdirectories.
+
+> `ls -l` lists files and subdirectories with long details.
+
+> `ls -lh` lists files and subdirectories with long details and filesizes are displayed in human-readable sizes e.g. 10K, 10M, etc.
+
+> `ls -lh` is quite meaningful since it provides a long details such as file access/restrictions.
 
 ---
 
