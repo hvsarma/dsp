@@ -42,6 +42,11 @@ What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations 
 
 What does `xargs` do? Give an example of how to use it.
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+> `xargs` takes arguments from standard input and executes it.
+
+> I have not used xargs at all. So, I found a very useful tool to back up files using commandline.
+
+> `find . -name '*~' -print 0 | xargs -0 -I % cp % ~/backups`
+
 
 ---
