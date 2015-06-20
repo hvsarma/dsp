@@ -31,7 +31,7 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 What terminal editor will you use? How did you make your decision?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+> I intend to use vim (```vi```), since I am slightly familiar with its short-cut keys.
 
 ---
 
