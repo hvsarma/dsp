@@ -61,6 +61,6 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+> Sypder, undoubtedly. For a variety of reasons that, it is a multi-panel editor, which allows file-browsing access to current working directory, works python scripts offline and run line by line, and shows results on python console.
 
 ---
