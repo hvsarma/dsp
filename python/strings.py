@@ -23,7 +23,7 @@ def donuts(count):
     else:
         print 'Number of donuts: many'
 
-    raise NotImplementedError
+    #raise NotImplementedError
 
 
 def both_ends(s):
@@ -42,7 +42,12 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
+    if len(s) < 2:
+        print ''
+    else:
+        print s[:2] + s[-2:]
+    
+    #raise NotImplementedError
 
 
 def fix_start(s):
