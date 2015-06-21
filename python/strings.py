@@ -66,7 +66,14 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
+    occur_index = [i for i in range(len(s)) if s.startswith(s[0], i)]
+    if len(occur_index) > 1:
+        for i in occur_index:
+            sNew = s.replace(s[i], '*')
+        print s[0]+sNew[1:]
+    else:
+        print s
+    #raise NotImplementedError
 
 
 def mix_up(a, b):
