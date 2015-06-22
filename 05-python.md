@@ -62,7 +62,16 @@ This sorts a tuple by its second element
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+> List comprehension is an elegant way to define and create list in Python. These lists have often the qualities of sets, but are not in all cases sets.
+
+> List comprehension is a complete substitute for the lambda function as well as the functions map(), filter() and reduce(). For most people the syntax of list comprehension is easier to be grasped. 
+
+> Below is an example of filtered list comprehension. `[hex(n) for n in range(0, 100) if n > 20]`. This compares with the map example such as `list(map(hex, filter(lambda x: x > 20, range(0, 100))))`.
+
+> A set comprehension is similar to a list comprehension, but returns a set and not a list. Syntactically, we use curly brackets instead of square brackets to create a set. Sets have only values, instead of k:v pairs, as in dictionary comprehension. Example of set comprehension would be: `{i for i in set(range(26))}`
+
+> Dict comprehensions are just like list comprehensions, except that we group the expression using curly braces instead of square braces. Example of dict comprehension would be: `{i : chr(65+i) for i in range(26)}`
+
 
 ---
 
