@@ -15,7 +15,10 @@ def match_ends(words):
     >>> match_ends(['aaa', 'be', 'abc', 'hello'])
     1
     """
-    raise NotImplementedError
+    
+    print len([i for i in words if len(i)> 1 and i[0] == i[len(i)-1]])
+    
+    #raise NotImplementedError
 
 
 def front_x(words):
