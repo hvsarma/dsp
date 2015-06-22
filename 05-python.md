@@ -49,7 +49,11 @@ e.g. list(set(gender))
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+> Lambdas are python's inline functions, which can take 1 expression only. Lambdas avoid function calling on the go, hence frees up stack memory.
+
+> Example of a lambda function I used in list exercise: 
+`sorted(tuples,key=lambda tuples: tuples[1])`
+This sorts a tuple by its second element
 
 ---
 
