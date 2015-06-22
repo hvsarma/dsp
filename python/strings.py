@@ -91,7 +91,9 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
+    print b[:2]+a[2:]+' '+ a[:2]+b[2:]
+    
+    #raise NotImplementedError
 
 
 def verbing(s):
@@ -108,7 +110,13 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
+    
+    if s[-3:] == 'ing':
+        print s+'ly'
+    else:
+        print s+'ing'
+    
+    #raise NotImplementedError
 
 
 def not_bad(s):
@@ -128,7 +136,17 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
+    if s.find('not') < s.find('bad'):
+        if s.find('that') != -1:
+            s1 = s.replace('bad', 'good').replace('not', '').replace('that','')
+            print ' '.join(s1.split())
+        else:
+            s1 = s.replace('bad', 'good').replace('not', '').replace('so', '')
+            print ' '.join(s1.split())
+    else:
+        print s
+    
+    #raise NotImplementedError
 
 
 def front_back(a, b):
@@ -147,4 +165,10 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+    aFront = a[:(len(a)+1)/2]
+    aBack = a[(len(a)+1)/2:]
+    bFront = b[:(len(b)+1)/2]
+    bBack = b[(len(b)+1)/2:]
+    print aFront+bFront+aBack+bBack
+    
+    #raise NotImplementedError
