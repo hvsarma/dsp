@@ -13,4 +13,4 @@ thinkplot.Pmf(pmf, linewidth=0.1)
 thinkplot.Show()
 ```
 
-<img src="img/ch04.ex02.png.jpg" title="Uniform random distribution" width="250" style="float: left;" />
+<img src="https://github.com/hvsarma/dsp/blob/master/img/ch04.ex02.png" title="Uniform random distribution" width="450" style="float: left;" />
