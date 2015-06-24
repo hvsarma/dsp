@@ -6,7 +6,7 @@ import scipy.stats
 
 def percNormAUC(high, low, mu, sigma):
     dist = scipy.stats.norm(loc=mu, scale=sigma)
-    return dist.cdf(high_mu_cm)-dist.cdf(low_mu_cm)
+    return dist.cdf(high)-dist.cdf(low)
 ```
 
 ```
