@@ -48,5 +48,9 @@ Bayesian approach:
 2) The studies are fixed.
 3) Parameters are unknown and described probabilistically.
 
-<img src="https://github.com/hvsarma/dsp/blob/master/img/freq-bayesian.jpg" title="Freq bayesian comparison" width="550" style="float: left;" /> (Source: http://www.austincc.edu/mparker/stat/nov04/talk_nov04.pdf)
+(Source: http://www.austincc.edu/mparker/stat/nov04/talk_nov04.pdf)
+
+<img src="https://github.com/hvsarma/dsp/blob/master/img/freq-bayesian.jpg" title="Freq bayesian comparison" width="550" style="float: left;" /> 
+
+
 ---
