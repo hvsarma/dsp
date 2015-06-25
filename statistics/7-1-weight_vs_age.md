@@ -39,6 +39,11 @@ def SpearmanCorr(xs, ys):
     yranks = pandas.Series(ys).rank()
     return Corr(xranks, yranks)
 
+for percent in [75, 50, 25]:
+        weights = [cdf.Percentile(percent) for cdf in cdfs]
+        label = '%dth' % percent
+        thinkplot.Plot(heights, weights, label=label)
+
 def main(script):
     thinkstats2.RandomSeed(123)
     
