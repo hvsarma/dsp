@@ -50,7 +50,9 @@ Bayesian approach:
 
 (Source: http://www.austincc.edu/mparker/stat/nov04/talk_nov04.pdf)
 
-<img src="https://github.com/hvsarma/dsp/blob/master/img/freq-bayesian.jpg" title="Freq bayesian comparison" width="550" style="float: left;" /> 
+<img src="https://github.com/hvsarma/dsp/blob/master/img/freq-bayesian.jpg" title="Freq bayesian comparison" width="650" style="float: left;" /> 
+
+<img src="https://github.com/hvsarma/dsp/blob/master/img/hassunexploded.jpg" title="Freq bayesian comparison" width="650" style="float: left;" /> 
 
 
 ---
