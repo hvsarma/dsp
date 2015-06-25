@@ -34,8 +34,6 @@ May I assume the prior probabilities?
 i.e. Prob(identical twin) = ?; Prob(fraternal twin) = ?
 
 Prob(Elvis was an identical twin) = Prob(Identical twin | twin brother) =  P() x P(boys|twin brother) /  P(twin, brother or sister)
----
-
 
 ---
 
